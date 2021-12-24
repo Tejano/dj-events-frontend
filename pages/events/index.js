@@ -1,7 +1,9 @@
-export default function index() {
-    return (
-        <div>
-            <h1>My Events</h1>
-        </div>
-    )
+import Layout from '../../components/Layout';
+
+export default function EventsPage() {
+  return (
+    <Layout>
+      <h1>My Events</h1>
+    </Layout>
+  );
 }
